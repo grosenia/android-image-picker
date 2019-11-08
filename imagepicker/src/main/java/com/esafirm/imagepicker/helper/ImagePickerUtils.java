@@ -8,10 +8,8 @@ import android.net.Uri;
 import android.os.Environment;
 import android.text.TextUtils;
 import android.webkit.MimeTypeMap;
-
 import com.esafirm.imagepicker.features.ImagePickerSavePath;
 import com.esafirm.imagepicker.model.Image;
-
 import java.io.File;
 import java.io.IOException;
 import java.net.URLConnection;
@@ -20,11 +18,10 @@ import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 
-import androidx.annotation.Nullable;
 
 public class ImagePickerUtils {
 
-    public static boolean isStringEmpty(@Nullable String str) {
+    public static boolean isStringEmpty(String str) {
         return str == null || str.length() == 0;
     }
 
